@@ -1,5 +1,12 @@
 require_relative"../lib/display_board.rb"
-
+def display_board(board)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+    board = [" O ", "X", " ", " ", "X", " ", "X", "O", " "]
+display_board(board)
 describe "#display_board in 'lib/display_board.rb" do
   context 'various game situations' do
     it 'prints a blank board when the board array is empty' do
@@ -185,6 +192,7 @@ describe "#display_board in 'lib/display_board.rb" do
 
       # *** Comment the line below by adding a # at the line start ***
       expect(true).to be(true)
+    end
     end
   end
 end
