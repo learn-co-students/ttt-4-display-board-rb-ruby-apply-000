@@ -1,3 +1,4 @@
+
 # Displaying a Tic Tac Toe Board
 
 ## Overview
@@ -59,7 +60,6 @@ Or think about a random board after 5 turns:
 ```ruby
 board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
 ```
-
 That `board` as an argument to `display_board` should print:
 
 ```
